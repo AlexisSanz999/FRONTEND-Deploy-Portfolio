@@ -1,0 +1,47 @@
+/*
+CLASES PROPIAS
+---------------
+
+-tipoCARACTERISTICA: con un - se encuentra en styles.css. Por ej: -fontVIOLETA
+--tipoCARACTERISTICA: con dos - se encuentra en el css de ese componente --modHEADER
+
+*/
+
+#--logoAP {
+  width: 150px;
+}
+
+.--navREDES {
+  align-items: center;
+}
+
+.--btnREDES i {
+  font-size: 26px;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  background: #11120e;
+  color: #ececec;
+  border-radius: 100%;
+}
+
+.--btnREDES i:hover {
+  font-size: 26px;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  background: #0e1343;
+  color: #0e0a3a;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #08073a;
+}
+
+@media (max-width: 600px) {
+  #--logoAP {
+    width: 100px;
+  }
+}

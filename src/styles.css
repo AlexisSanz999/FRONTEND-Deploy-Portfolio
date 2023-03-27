@@ -1,0 +1,138 @@
+/*
+CLASES PROPIAS
+---------------
+
+-tipoCARACTERISTICA: con un - se encuentra en styles.css. Por ej: -fontVIOLETA
+--tipoCARACTERISTICA: con dos - se encuentra en el css de ese componente --modHEADER
+
+*/
+
+/* GENERAL */
+body {
+  /* font-family: 'Anonymous Pro', monospace; */
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+/* BOTONES */
+.-btnOK {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.-btnCRUD i {
+  font-size: 18px;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  background: #1a1743;
+  color: #ececec;
+  border-radius: 100%;
+}
+
+.-btnCRUD i:hover {
+  font-size: 18px;
+  width: 1.6em;
+  text-align: center;
+  line-height: 1.6em;
+  background: #ececec;
+  color: #1a1743;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* FUENTES */
+.-fontVIOLETA {
+  color: #501d93;
+}
+
+.-fontAMARILLO {
+  color: #d69e05;
+}
+
+/* FORM */
+.-rowFORM {
+  border-radius: 0px 0px 30px 30px;
+  padding-bottom: 10px;
+}
+
+.-contFORM {
+  margin-bottom: 20px;
+}
+
+.-fontTITULO {
+  font-style: bold;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.-mb18PX {
+  margin-bottom: 18px;
+}
+
+/* MEDIA QUERIES */
+/* Resoluciones de 1070px y mayores */
+@media only screen and (min-width: 1070px) {
+  .-rowESTILO {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #1a1743;
+    color: #ececec;
+    position: relative;
+  }
+}
+
+/* Resoluciones de 1069px y menores */
+@media only screen and (max-width: 1069px) {
+  .-rowESTILO {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #1a1743;
+    color: #ececec;
+    position: relative;
+  }
+}
+
+/* Resoluciones de 993px y menores */
+@media only screen and (max-width: 993px) {
+  .-rowESTILO {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #1a1743;
+    color: #ececec;
+    position: relative;
+  }
+}
+
+/* Resoluciones de 768px y menores */
+@media only screen and (max-width: 768px) {
+  .-rowESTILO {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #1a1743;
+    color: #ececec;
+    position: relative;
+  }
+}
+
+/* Resoluciones de 499px y menores */
+@media only screen and (max-width: 499px) {
+  .-rowESTILO {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #1a1743;
+    color: #ececec;
+    position: relative;
+  }
+}
